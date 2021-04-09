@@ -116,8 +116,8 @@ TextureImporter:
         serializedVersion: 2
         x: 5
         y: 0
-        width: 30
-        height: 40
+        width: 29
+        height: 41
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,9 +135,9 @@ TextureImporter:
       name: gothic-hero-idle_1
       rect:
         serializedVersion: 2
-        x: 44
+        x: 43
         y: 0
-        width: 28
+        width: 29
         height: 41
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -158,8 +158,8 @@ TextureImporter:
         serializedVersion: 2
         x: 81
         y: 0
-        width: 30
-        height: 40
+        width: 29
+        height: 41
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
         serializedVersion: 2
         x: 119
         y: 0
-        width: 30
-        height: 39
+        width: 29
+        height: 41
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

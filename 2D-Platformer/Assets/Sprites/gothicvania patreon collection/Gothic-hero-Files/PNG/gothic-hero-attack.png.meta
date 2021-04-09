@@ -120,9 +120,9 @@ TextureImporter:
       name: gothic-hero-attack_0
       rect:
         serializedVersion: 2
-        x: 27
+        x: 16
         y: 0
-        width: 32
+        width: 81
         height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: gothic-hero-attack_1
       rect:
         serializedVersion: 2
-        x: 117
+        x: 103
         y: 0
-        width: 39
-        height: 34
+        width: 81
+        height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,9 +162,9 @@ TextureImporter:
       name: gothic-hero-attack_2
       rect:
         serializedVersion: 2
-        x: 185
+        x: 204
         y: 0
-        width: 100
+        width: 81
         height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -183,9 +183,9 @@ TextureImporter:
       name: gothic-hero-attack_3
       rect:
         serializedVersion: 2
-        x: 294
+        x: 300
         y: 0
-        width: 76
+        width: 81
         height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -204,9 +204,9 @@ TextureImporter:
       name: gothic-hero-attack_4
       rect:
         serializedVersion: 2
-        x: 409
+        x: 396
         y: 0
-        width: 44
+        width: 81
         height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -225,9 +225,9 @@ TextureImporter:
       name: gothic-hero-attack_5
       rect:
         serializedVersion: 2
-        x: 510
+        x: 493
         y: 0
-        width: 33
+        width: 81
         height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}

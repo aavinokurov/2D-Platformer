@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Skull
   - 
   - 
   - 
@@ -50,9 +50,15 @@ TagManager:
   - name: Ground
     uniqueID: 50175537
     locked: 0
+  - name: Blood
+    uniqueID: 886926161
+    locked: 0
   - name: Emeny
     uniqueID: 2784898101
     locked: 0
   - name: Character
     uniqueID: 222180719
+    locked: 0
+  - name: Wheelbarrow
+    uniqueID: 2990082435
     locked: 0

@@ -16,7 +16,7 @@ public class SkullExplosion : MonoBehaviour
         {
             skull.SetActive(true);
             skullFire.SetActive(true);
-            demon.SetActive(false);
+            Destroy(demon);
             Instantiate(skull, parent);
             Instantiate(skullFire, parent);
             StartCoroutine(explosionTimer());
@@ -28,5 +28,6 @@ public class SkullExplosion : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
 
         isDead = false;
+        Destroy(gameObject, 0.5f);
     }
 }

@@ -65,11 +65,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameController.cs" />
+    <Compile Include="Assets\Scripts\DamageDealler.cs" />
     <Compile Include="Assets\Scripts\GlobalStringVars.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\PlatformController.cs" />
     <Compile Include="Assets\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Shooter.cs" />
     <Compile Include="Assets\Scripts\SkullExplosion.cs" />
     <None Include="Assets\Sprites\gothicvania patreon collection\public-license.txt" />
     <Reference Include="UnityEngine">

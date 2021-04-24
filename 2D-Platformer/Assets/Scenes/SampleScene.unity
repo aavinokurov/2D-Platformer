@@ -965,7 +965,7 @@ GameObject:
   - component: {fileID: 124402398}
   - component: {fileID: 124402400}
   - component: {fileID: 124402399}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 145236553}
   - component: {fileID: 145236552}
   - component: {fileID: 145236551}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TX Village Props Cloth C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1196,7 +1196,7 @@ GameObject:
   - component: {fileID: 181564450}
   - component: {fileID: 181564452}
   - component: {fileID: 181564451}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1932,7 +1932,7 @@ GameObject:
   - component: {fileID: 303592924}
   - component: {fileID: 303592926}
   - component: {fileID: 303592925}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2199,7 +2199,7 @@ GameObject:
   - component: {fileID: 320557902}
   - component: {fileID: 320557901}
   - component: {fileID: 320557900}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tiles_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2494,7 +2494,7 @@ GameObject:
   - component: {fileID: 375743855}
   - component: {fileID: 375743857}
   - component: {fileID: 375743856}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3492,7 +3492,7 @@ GameObject:
   - component: {fileID: 539139758}
   - component: {fileID: 539139760}
   - component: {fileID: 539139759}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3594,7 +3594,7 @@ GameObject:
   - component: {fileID: 550967025}
   - component: {fileID: 550967027}
   - component: {fileID: 550967026}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tiles_11 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3782,7 +3782,7 @@ GameObject:
   - component: {fileID: 575044734}
   - component: {fileID: 575044736}
   - component: {fileID: 575044735}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tiles_11 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4350,7 +4350,7 @@ GameObject:
   - component: {fileID: 683930400}
   - component: {fileID: 683930402}
   - component: {fileID: 683930401}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4451,7 +4451,7 @@ GameObject:
   - component: {fileID: 706452218}
   - component: {fileID: 706452220}
   - component: {fileID: 706452219}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5038,7 +5038,7 @@ GameObject:
   - component: {fileID: 744069721}
   - component: {fileID: 744069723}
   - component: {fileID: 744069722}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5176,7 +5176,7 @@ GameObject:
   - component: {fileID: 758215757}
   - component: {fileID: 758215759}
   - component: {fileID: 758215758}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tiles_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5619,7 +5619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 808546142}
   - component: {fileID: 808546143}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BodyCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5677,7 +5677,7 @@ GameObject:
   - component: {fileID: 815561649}
   - component: {fileID: 815561651}
   - component: {fileID: 815561650}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5778,7 +5778,7 @@ GameObject:
   - component: {fileID: 840330401}
   - component: {fileID: 840330403}
   - component: {fileID: 840330402}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6259,7 +6259,7 @@ GameObject:
   - component: {fileID: 901280255}
   - component: {fileID: 901280257}
   - component: {fileID: 901280256}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6750,7 +6750,7 @@ GameObject:
   - component: {fileID: 1015337710}
   - component: {fileID: 1015337712}
   - component: {fileID: 1015337711}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6934,7 +6934,7 @@ GameObject:
   - component: {fileID: 1022738692}
   - component: {fileID: 1022738691}
   - component: {fileID: 1022738690}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TX Village Props Cloth E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7172,7 +7172,7 @@ GameObject:
   - component: {fileID: 1074380862}
   - component: {fileID: 1074380864}
   - component: {fileID: 1074380863}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7563,7 +7563,7 @@ GameObject:
   - component: {fileID: 1096691974}
   - component: {fileID: 1096691976}
   - component: {fileID: 1096691975}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7924,7 +7924,7 @@ GameObject:
   - component: {fileID: 1134776329}
   - component: {fileID: 1134776331}
   - component: {fileID: 1134776330}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8025,7 +8025,7 @@ GameObject:
   - component: {fileID: 1141805323}
   - component: {fileID: 1141805325}
   - component: {fileID: 1141805324}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8511,7 +8511,7 @@ GameObject:
   - component: {fileID: 1203700181}
   - component: {fileID: 1203700183}
   - component: {fileID: 1203700182}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8692,7 +8692,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1207421788}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9740,7 +9740,7 @@ GameObject:
   - component: {fileID: 1285299580}
   - component: {fileID: 1285299582}
   - component: {fileID: 1285299581}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10082,7 +10082,7 @@ GameObject:
   - component: {fileID: 1312478900}
   - component: {fileID: 1312478902}
   - component: {fileID: 1312478901}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tiles_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10983,7 +10983,7 @@ GameObject:
   - component: {fileID: 1490068852}
   - component: {fileID: 1490068854}
   - component: {fileID: 1490068853}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11054,7 +11054,7 @@ BuoyancyEffector2D:
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1847
   m_SurfaceLevel: -0.72
   m_Density: 15
   m_LinearDrag: 5
@@ -11236,7 +11236,7 @@ GameObject:
   - component: {fileID: 1501813343}
   - component: {fileID: 1501813345}
   - component: {fileID: 1501813344}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tiles_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11475,7 +11475,7 @@ GameObject:
   - component: {fileID: 1530237878}
   - component: {fileID: 1530237880}
   - component: {fileID: 1530237879}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12276,7 +12276,7 @@ GameObject:
   - component: {fileID: 1605723866}
   - component: {fileID: 1605723865}
   - component: {fileID: 1605723864}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TX Village Props Cloth B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12645,7 +12645,7 @@ GameObject:
   - component: {fileID: 1651964363}
   - component: {fileID: 1651964365}
   - component: {fileID: 1651964364}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12746,7 +12746,7 @@ GameObject:
   - component: {fileID: 1656193361}
   - component: {fileID: 1656193363}
   - component: {fileID: 1656193362}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12847,7 +12847,7 @@ GameObject:
   - component: {fileID: 1669455605}
   - component: {fileID: 1669455607}
   - component: {fileID: 1669455606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13111,7 +13111,7 @@ GameObject:
   - component: {fileID: 1686647856}
   - component: {fileID: 1686647858}
   - component: {fileID: 1686647857}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13258,7 +13258,7 @@ GameObject:
   - component: {fileID: 1695145594}
   - component: {fileID: 1695145596}
   - component: {fileID: 1695145595}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13827,7 +13827,7 @@ GameObject:
   - component: {fileID: 1728941888}
   - component: {fileID: 1728941890}
   - component: {fileID: 1728941889}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13927,7 +13927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1733519971}
   - component: {fileID: 1733519972}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GroundCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14176,7 +14176,7 @@ GameObject:
   - component: {fileID: 1769589328}
   - component: {fileID: 1769589330}
   - component: {fileID: 1769589329}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tiles_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14388,7 +14388,7 @@ GameObject:
   - component: {fileID: 1776928590}
   - component: {fileID: 1776928592}
   - component: {fileID: 1776928591}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14571,7 +14571,7 @@ GameObject:
   - component: {fileID: 1799981117}
   - component: {fileID: 1799981119}
   - component: {fileID: 1799981118}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15052,7 +15052,7 @@ GameObject:
   - component: {fileID: 1859956491}
   - component: {fileID: 1859956493}
   - component: {fileID: 1859956492}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15396,7 +15396,7 @@ GameObject:
   - component: {fileID: 1910618090}
   - component: {fileID: 1910618092}
   - component: {fileID: 1910618091}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15560,7 +15560,7 @@ GameObject:
   - component: {fileID: 1931382407}
   - component: {fileID: 1931382409}
   - component: {fileID: 1931382408}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15661,7 +15661,7 @@ GameObject:
   - component: {fileID: 1933917033}
   - component: {fileID: 1933917035}
   - component: {fileID: 1933917034}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15871,7 +15871,7 @@ GameObject:
   - component: {fileID: 1968212559}
   - component: {fileID: 1968212561}
   - component: {fileID: 1968212560}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16576,7 +16576,8 @@ GameObject:
   - component: {fileID: 2047401789}
   - component: {fileID: 2047401791}
   - component: {fileID: 2047401790}
-  m_Layer: 0
+  - component: {fileID: 2047401792}
+  m_Layer: 11
   m_Name: Hero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16680,7 +16681,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -16701,8 +16702,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f58ccdcdaf2446cc81ea84de5bea0d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbodyHero: {fileID: 2047401789}
   jumpForce: 3
+  speed: 1
+  isGround: 0
+  groundColiderTransform: {fileID: 1733519971}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -1
+      value: -1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  jumpOffSet: 0.08
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 512
+  rigidbodyHero: {fileID: 2047401789}
 --- !u!114 &2047401791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16716,6 +16757,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 2047401790}
+--- !u!114 &2047401792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047401785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd7fe3b5a6ea4e96afeeaf92002ebf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &2051555886
 GameObject:
   m_ObjectHideFlags: 0
@@ -17062,7 +17116,7 @@ GameObject:
   - component: {fileID: 2076471956}
   - component: {fileID: 2076471958}
   - component: {fileID: 2076471957}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17276,7 +17330,7 @@ GameObject:
   - component: {fileID: 2091879896}
   - component: {fileID: 2091879898}
   - component: {fileID: 2091879897}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17486,7 +17540,7 @@ GameObject:
   - component: {fileID: 2119112914}
   - component: {fileID: 2119112916}
   - component: {fileID: 2119112915}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17669,7 +17723,7 @@ GameObject:
   - component: {fileID: 2134384612}
   - component: {fileID: 2134384614}
   - component: {fileID: 2134384613}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tiles_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17929,7 +17983,7 @@ GameObject:
   - component: {fileID: 2141220884}
   - component: {fileID: 2141220886}
   - component: {fileID: 2141220885}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blood (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AnimationCurve curve;
     [SerializeField] private float jumpOffSet;
     [SerializeField] private LayerMask groundMask;
+    [SerializeField] private AnimationController animationHero;
+    [SerializeField] private SpriteRenderer heroSprite;
 
     [Header("Rigidbody")]
     [SerializeField] private Rigidbody2D rigidbodyHero;
@@ -30,10 +32,15 @@ public class PlayerMovement : MonoBehaviour
             Jump();
         }
 
-        if (Mathf.Abs(direction) > 0.01f)
+        bool isRunning = Mathf.Abs(direction) > 0.01f;
+
+        if (isRunning)
         {
             HorizontalMove(direction);
         }
+        
+        animationHero.RunAnimation(isRunning);
+        animationHero.JumpAnimation(!isGround);
     }
 
     private void Jump()
@@ -42,11 +49,12 @@ public class PlayerMovement : MonoBehaviour
         {
             rigidbodyHero.velocity = new Vector2(rigidbodyHero.velocity.x, jumpForce);
         }
-            
     }
 
     private void HorizontalMove(float direction)
     {
         rigidbodyHero.velocity = new Vector2(curve.Evaluate(direction), rigidbodyHero.velocity.y);
+
+        heroSprite.flipX = !(curve.Evaluate(direction) >= 0);
     }
 }

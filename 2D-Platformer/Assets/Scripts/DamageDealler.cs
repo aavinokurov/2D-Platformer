@@ -9,7 +9,8 @@ public class DamageDealler : MonoBehaviour
         if(bullet.CompareTag("Damageable"))
         {
             bullet.gameObject.GetComponent<Health>().TakeDamage(damage);
-            Destroy(gameObject);
         }
+        
+        Destroy(gameObject, 2f);
     }
 }

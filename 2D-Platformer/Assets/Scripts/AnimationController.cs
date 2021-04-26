@@ -15,4 +15,21 @@ public class AnimationController : MonoBehaviour
     {
         heroAnimator.SetBool("isJumping", Flag);
     }
+
+    public void AttackAnimation(bool Flag)
+    {
+        if (!heroAnimator.GetBool("isAttack") && Flag)
+        {
+            heroAnimator.SetBool("isAttack",true);
+
+            StartCoroutine(AttackTimer());
+        }
+    }
+
+    private IEnumerator AttackTimer()
+    {
+        yield return new WaitForSeconds(0.05f);
+        
+        heroAnimator.SetBool("isAttack",false);
+    }
 }

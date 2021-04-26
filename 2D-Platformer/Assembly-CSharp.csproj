@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Shooter.cs" />
      <Compile Include="Assets\Scripts\SkullExplosion.cs" />
+     <Compile Include="Assets\Scripts\Weapon.cs" />
      <None Include="Assets\Sprites\gothicvania patreon collection\public-license.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/vinokurovaleksandr/Unity/2D-Platformer/2D-Platformer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

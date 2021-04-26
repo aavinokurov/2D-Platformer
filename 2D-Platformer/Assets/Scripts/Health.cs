@@ -5,20 +5,28 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private float maxHealth;
+    [SerializeField] private SpriteRenderer spriteHealth;
 
     private float currentHealth;
-    private bool isAlive;
+    public bool isAlive;
 
     private void Awake()
     {
         currentHealth = maxHealth;
+        HealthImg();
         isAlive = true;
     }
 
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
+        HealthImg();
         CheckIsAlive();
+    }
+
+    private void HealthImg()
+    {
+        spriteHealth.size = new Vector2(currentHealth/maxHealth, spriteHealth.size.y);
     }
 
     private void CheckIsAlive()

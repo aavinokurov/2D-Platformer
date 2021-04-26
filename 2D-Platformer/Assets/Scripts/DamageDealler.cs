@@ -10,7 +10,5 @@ public class DamageDealler : MonoBehaviour
         {
             bullet.gameObject.GetComponent<Health>().TakeDamage(damage);
         }
-        
-        Destroy(gameObject, 2f);
     }
 }

@@ -6,12 +6,19 @@ public class SkullExplosion : MonoBehaviour
 {
     [SerializeField] private GameObject demon;
     [SerializeField] private Transform parent;
-    [SerializeField] private bool isDead;
     [SerializeField] private GameObject skull;
     [SerializeField] private GameObject skullFire;
+    [SerializeField] private Health healthDemon;
+    
+    private bool isDead;
 
     private void FixedUpdate()
     {
+        if (!healthDemon.isAlive && !isDead)
+        {
+            isDead = true;
+        }
+        
         if (isDead)
         {
             skull.SetActive(true);

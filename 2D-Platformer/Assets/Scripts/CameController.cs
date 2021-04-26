@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class CameController : MonoBehaviour
 {
-    [SerializeField] private Transform mainCamera;
-    [SerializeField] private Transform target;
+    [SerializeField] private Transform hero;
 
     private void Update()
     {
-        mainCamera.position = Vector3.MoveTowards(mainCamera.position, target.position, Time.deltaTime);
+        if (hero.position.x > 0 && hero.position.x < 17.8)
+        {
+            transform.position = new Vector3(hero.position.x, transform.position.y, transform.position.z);
+        }
     }
 }

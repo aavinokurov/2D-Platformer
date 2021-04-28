@@ -61,11 +61,14 @@
      <Compile Include="Assets\Scripts\AnimationController.cs" />
      <Compile Include="Assets\Scripts\CameController.cs" />
      <Compile Include="Assets\Scripts\DamageDealler.cs" />
+     <Compile Include="Assets\Scripts\DeathHero.cs" />
+     <Compile Include="Assets\Scripts\DemonCollision.cs" />
      <Compile Include="Assets\Scripts\GlobalStringVars.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\PlatformController.cs" />
      <Compile Include="Assets\Scripts\PlayerInput.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\ScenesController.cs" />
      <Compile Include="Assets\Scripts\Shooter.cs" />
      <Compile Include="Assets\Scripts\SkullExplosion.cs" />
      <Compile Include="Assets\Scripts\Weapon.cs" />

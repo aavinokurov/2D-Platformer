@@ -9,12 +9,16 @@ public class PlayerInput : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float horizontalDirection = Input.GetAxis(GlobalStringVars.HORIZONTAL_AXIS);
-        bool isJumpButtonPressed = Input.GetButtonDown(GlobalStringVars.JUMP);
-        playerMovement.Move(horizontalDirection, isJumpButtonPressed);
+        if (!StartCutscene.isCutsceneOn)
+        {
+            float horizontalDirection = Input.GetAxis(GlobalStringVars.HORIZONTAL_AXIS);
+            bool isJumpButtonPressed = Input.GetButtonDown(GlobalStringVars.JUMP);
+            playerMovement.Move(horizontalDirection, isJumpButtonPressed);
+    
+            bool isAttack = Input.GetButtonDown(GlobalStringVars.FIRE_1);
+            weapon.Attack(isAttack);
+            animationHero.AttackAnimation(isAttack);
+        }
 
-        bool isAttack = Input.GetButtonDown(GlobalStringVars.FIRE_1);
-        weapon.Attack(isAttack);
-        animationHero.AttackAnimation(isAttack);
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Damageable
   - Death
+  - EnemyStoper
   layers:
   - Default
   - TransparentFX

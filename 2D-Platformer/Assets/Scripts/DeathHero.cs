@@ -16,11 +16,6 @@ public class DeathHero : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        Time.timeScale = 1;
-    }
-
     private void Update()
     {
         if (!healthHero.isAlive)

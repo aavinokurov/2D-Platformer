@@ -38,17 +38,21 @@ public class DemonController : MonoBehaviour
                     break;
                 case DEMON_ATTACK:
                     demonAnimator.SetBool("isAttack", true);
-                    weapon.Attack(true);
+                    Invoke(nameof(StartAttack),0.6f);
                     Invoke(nameof(StopAttack), 1f);
                     break;
             }
         }
     }
 
+    public void StartAttack()
+    {
+        weapon.Attack();
+    }
+
     private void StopAttack()
     {
         demonAnimator.SetBool("isAttack", false);
-        weapon.Attack(false);
         currentTimeToAttack = 0;
         currentState = DEMON_IDEL;
     }

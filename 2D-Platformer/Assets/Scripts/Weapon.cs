@@ -7,9 +7,9 @@ public class Weapon : MonoBehaviour
     [SerializeField] private GameObject weaponCollider;
     [SerializeField] private float timeAttack;
 
-    public void Attack(bool Flag)
+    public void Attack()
     {
-        if (!weaponCollider.activeSelf && Flag)
+        if (!weaponCollider.activeSelf)
         {
             weaponCollider.SetActive(true);
             StartCoroutine(AttackTimer());

@@ -16,8 +16,12 @@ public class PlayerInput : MonoBehaviour
             playerMovement.Move(horizontalDirection, isJumpButtonPressed);
     
             bool isAttack = Input.GetButtonDown(GlobalStringVars.FIRE_1);
-            weapon.Attack(isAttack);
-            animationHero.AttackAnimation(isAttack);
+            if (isAttack)
+            {
+                weapon.Attack();
+                animationHero.AttackAnimation(true);
+            }
+
         }
 
     }

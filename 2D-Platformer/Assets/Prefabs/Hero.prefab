@@ -302,6 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponCollider: {fileID: 8156423631036512480}
+  timeAttack: 0.1
 --- !u!114 &8156423630503271892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -444,7 +445,7 @@ GameObject:
   - component: {fileID: 8156423631082146250}
   m_Layer: 11
   m_Name: Colliders
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

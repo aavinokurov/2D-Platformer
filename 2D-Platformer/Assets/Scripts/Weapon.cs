@@ -5,6 +5,7 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
     [SerializeField] private GameObject weaponCollider;
+    [SerializeField] private float timeAttack;
 
     public void Attack(bool Flag)
     {
@@ -17,7 +18,7 @@ public class Weapon : MonoBehaviour
     
     private IEnumerator AttackTimer()
     {
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(timeAttack);
         
         weaponCollider.SetActive(false);
     }

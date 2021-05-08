@@ -122,8 +122,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 152
-        height: 141
+        width: 160
+        height: 144
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: demon-idle_1
       rect:
         serializedVersion: 2
-        x: 158
+        x: 160
         y: 0
-        width: 162
-        height: 109
+        width: 160
+        height: 144
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: demon-idle_2
       rect:
         serializedVersion: 2
-        x: 326
+        x: 320
         y: 0
-        width: 146
-        height: 109
+        width: 160
+        height: 144
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: demon-idle_3
       rect:
         serializedVersion: 2
-        x: 498
+        x: 480
         y: 0
-        width: 114
-        height: 111
+        width: 160
+        height: 144
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: demon-idle_4
       rect:
         serializedVersion: 2
-        x: 652
+        x: 640
         y: 0
-        width: 140
-        height: 109
+        width: 160
+        height: 144
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: demon-idle_5
       rect:
         serializedVersion: 2
-        x: 804
+        x: 800
         y: 0
-        width: 156
-        height: 109
+        width: 160
+        height: 144
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

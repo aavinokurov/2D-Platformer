@@ -7,9 +7,10 @@ public class EnemyController : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float timeToRevert;
-    //[SerializeField] private Animator animatorEnemy;
+    [SerializeField] private Animator animatorEnemy;
     [SerializeField] private SpriteRenderer spriteEnemy;
     [SerializeField] private Rigidbody2D enemyRigidBody;
+    [SerializeField] private Health healthEnemy;
 
     private const float IDEL_STATE = 0;
     private const float WALK_STATE = 1;
@@ -26,28 +27,37 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        if (currenrTimeToRevert >= timeToRevert)
+        if (healthEnemy.isAlive)
         {
-            currenrTimeToRevert = 0;
-            currenrState = REVERT_STATE;
+            if (currenrTimeToRevert >= timeToRevert)
+            {
+                currenrTimeToRevert = 0;
+                currenrState = REVERT_STATE;
+            }
+            
+            switch (currenrState)
+            {
+                case IDEL_STATE:
+                    currenrTimeToRevert += Time.deltaTime;
+                    animatorEnemy.SetBool("isShriek",true);
+                    break;
+                case WALK_STATE:
+                    enemyRigidBody.velocity = Vector2.left * speed;
+                    animatorEnemy.SetBool("isShriek",false);
+                    animatorEnemy.SetBool("isIdel",true);
+                    break;
+                case REVERT_STATE:
+                    spriteEnemy.flipX = !spriteEnemy.flipX;
+                    speed *= -1;
+                    currenrState = WALK_STATE;
+                    break;
+            }
         }
-        
-        switch (currenrState)
+        else
         {
-            case IDEL_STATE:
-                currenrTimeToRevert += Time.deltaTime;
-                break;
-            case WALK_STATE:
-                enemyRigidBody.velocity = Vector2.left * speed;
-                break;
-            case REVERT_STATE:
-                spriteEnemy.flipX = !spriteEnemy.flipX;
-                speed *= -1;
-                currenrState = WALK_STATE;
-                break;
+            animatorEnemy.SetBool("isDeath", true);
+            Destroy(gameObject, 0.5f);
         }
-        
-        //animatorEnemy.SetFloat("Velocity", enemyRigidBody.velocity.magnitude);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

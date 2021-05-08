@@ -19,9 +19,13 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        currentHealth -= damage;
-        HealthImg();
-        CheckIsAlive();
+        if (isAlive)
+        {
+            currentHealth -= damage;
+            HealthImg();
+            CheckIsAlive();
+        }
+
     }
 
     private void HealthImg()

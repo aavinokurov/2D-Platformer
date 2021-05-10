@@ -12,6 +12,7 @@ public class EnemyAppear : MonoBehaviour
         if (other.gameObject.layer == 11)
         {
             enemy.SetActive(true);
+            Destroy(gameObject);
         }
     }
 }

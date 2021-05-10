@@ -5,13 +5,16 @@ using UnityEngine;
 public class PlatformController : MonoBehaviour
 {
     [SerializeField] private SliderJoint2D platform;
-    private bool isForward = false;
+    [SerializeField] private float minPosition;
+    [SerializeField] private float maxPosition;
+    [SerializeField] private float speed;
+    private bool isForward;
     private JointMotor2D platformMotor;
 
     private void FixedUpdate()
     {
 
-        if (platform.jointTranslation <= 0.1f)
+        if (platform.jointTranslation <= minPosition)
         {
             if (!isForward)
             {
@@ -19,7 +22,7 @@ public class PlatformController : MonoBehaviour
             }
         }
 
-        if (platform.jointTranslation >= 1.3f)
+        if (platform.jointTranslation >= maxPosition)
         {
             if (isForward)
             {
@@ -31,11 +34,11 @@ public class PlatformController : MonoBehaviour
 
         if (isForward)
         {
-            platformMotor.motorSpeed = 0.5f;
+            platformMotor.motorSpeed = speed;
         }
         else
         {
-            platformMotor.motorSpeed = -0.5f;
+            platformMotor.motorSpeed = -speed;
         }
 
         platform.motor = platformMotor;

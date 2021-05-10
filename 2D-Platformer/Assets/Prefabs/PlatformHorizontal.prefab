@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 7957561596721860783}
   - component: {fileID: 7957561596721860782}
   m_Layer: 0
-  m_Name: Platform7
+  m_Name: PlatformHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -203,3 +203,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platform: {fileID: 7957561596172987272}
+  minPosition: 0
+  maxPosition: 0
+  speed: 0

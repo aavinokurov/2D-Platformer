@@ -20,6 +20,11 @@ public class ScenesController : MonoBehaviour
         SceneManager.LoadScene(numLevel);
     }
 
+    public void LoadNexLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     public void LoadMainMenu()
     {
         SceneManager.LoadScene(0);

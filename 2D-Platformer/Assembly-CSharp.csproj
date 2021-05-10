@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\FinishLevel.cs" />
      <Compile Include="Assets\Scripts\GlobalStringVars.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\HeartController.cs" />
      <Compile Include="Assets\Scripts\ParallaxController.cs" />
      <Compile Include="Assets\Scripts\PlatformController.cs" />
      <Compile Include="Assets\Scripts\PlayerInput.cs" />

@@ -25,7 +25,19 @@ public class Health : MonoBehaviour
             HealthImg();
             CheckIsAlive();
         }
+    }
 
+    public void Healing(float health)
+    {
+        if (currentHealth < maxHealth)
+        {
+            currentHealth += health;
+            if (currentHealth > maxHealth)
+            {
+                currentHealth = maxHealth;
+            }
+            HealthImg();
+        }
     }
 
     private void HealthImg()

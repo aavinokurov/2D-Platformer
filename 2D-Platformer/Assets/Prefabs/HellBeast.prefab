@@ -24,11 +24,41 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241136959575115448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.31, y: 0.31994677, z: -2.208252}
+  m_LocalPosition: {x: -0.327, y: 0.31994677, z: -2.208252}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4817593320712526993}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3871414798356511140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2463773673799771848}
+  m_Layer: 0
+  m_Name: CreatePositionCoin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2463773673799771848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3871414798356511140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4817593320712526993}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4817593320249820703
 GameObject:
@@ -147,6 +177,7 @@ GameObject:
   - component: {fileID: 4817593320712527004}
   - component: {fileID: 4817593320712527007}
   - component: {fileID: 4817593320712527006}
+  - component: {fileID: 9192124386560341618}
   m_Layer: 0
   m_Name: HellBeast
   m_TagString: Damageable
@@ -169,6 +200,7 @@ Transform:
   - {fileID: 2808446771355897087}
   - {fileID: 4817593321337160443}
   - {fileID: 230407936431092184}
+  - {fileID: 2463773673799771848}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -207,7 +239,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.01, y: 0.36}
-  m_Size: {x: 0.5, y: 0.71}
+  m_Size: {x: 0.35, y: 0.71}
   m_Direction: 0
 --- !u!114 &4817593320712526994
 MonoBehaviour:
@@ -273,6 +305,21 @@ MonoBehaviour:
   spriteRendererEnemy: {fileID: 4817593320249820698}
   enemyShooter: {fileID: 4817593320712527007}
   enemyHealt: {fileID: 4817593320712526994}
+--- !u!114 &9192124386560341618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4817593320712526997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d2b0a07d99e4b0394db4056b9b1a3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 4953909852490292890, guid: a92fa2679fa7644f58c053b8ccd28cd7, type: 3}
+  createPosition: {fileID: 2463773673799771848}
+  healthEnemy: {fileID: 4817593320712526994}
 --- !u!1 &4817593321337160442
 GameObject:
   m_ObjectHideFlags: 0

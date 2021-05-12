@@ -8,7 +8,7 @@ public class CoinController : MonoBehaviour
 {
     [SerializeField] private Text countCoinText;
 
-    private static int countCoin;
+    public static int countCoin;
 
     private void Start()
     {

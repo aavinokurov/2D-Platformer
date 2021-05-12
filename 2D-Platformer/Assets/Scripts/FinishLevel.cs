@@ -11,6 +11,7 @@ public class FinishLevel : MonoBehaviour
         if (other.gameObject.layer == 11)
         {
             finishPanel.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }

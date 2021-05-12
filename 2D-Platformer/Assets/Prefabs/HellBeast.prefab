@@ -54,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3871414798356511140}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.282, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4817593320712526993}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 4817593320712527004}
   - component: {fileID: 4817593320712527007}
   - component: {fileID: 4817593320712527006}
-  - component: {fileID: 9192124386560341618}
+  - component: {fileID: 1970103835800234174}
   m_Layer: 0
   m_Name: HellBeast
   m_TagString: Damageable
@@ -305,7 +305,7 @@ MonoBehaviour:
   spriteRendererEnemy: {fileID: 4817593320249820698}
   enemyShooter: {fileID: 4817593320712527007}
   enemyHealt: {fileID: 4817593320712526994}
---- !u!114 &9192124386560341618
+--- !u!114 &1970103835800234174
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

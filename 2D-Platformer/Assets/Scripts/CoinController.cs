@@ -15,13 +15,13 @@ public class CoinController : MonoBehaviour
         countCoin = 0;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D coin)
     {
-        if (other.gameObject.layer == 11)
+        if (coin.gameObject.layer == 14)
         {
             countCoin++;
             countCoinText.text = countCoin.ToString();
-            Destroy(gameObject);
+            Destroy(coin.gameObject);
         }
     }
 }

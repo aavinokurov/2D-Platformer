@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 4953909852314018280}
   - component: {fileID: 4953909852314018281}
   - component: {fileID: 4953909852314018282}
-  - component: {fileID: 4953909852314018199}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: CoinRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,19 +128,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.07, y: 0.09}
   m_EdgeRadius: 0
---- !u!114 &4953909852314018199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4953909852314018284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c8919d3c47a4615b725247eb5cff0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  countCoinText: {fileID: 0}
 --- !u!1 &4953909852490292890
 GameObject:
   m_ObjectHideFlags: 0
@@ -151,7 +137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4953909852490292889}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: CoinRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +151,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4953909852490292890}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.36, y: 1.134, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
